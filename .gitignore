@@ -11,6 +11,9 @@ node_modules
 dist
 dist-ssr
 *.local
+eslintrc.json
+prettierrc
+
 
 # Editor directories and files
 .vscode/*
