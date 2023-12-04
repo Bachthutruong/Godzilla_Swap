@@ -13,6 +13,7 @@
   "dependencies": {
     "@popperjs/core": "^2.11.6",
     "@reach/portal": "^0.18.0",
+    "@web3-onboard/walletconnect": "^2.5.1",
     "eslint-plugin-better-styled-components": "^1.1.2",
     "ethers": "^5.7.0",
     "react-indiana-drag-scroll": "^2.2.0",

@@ -6,14 +6,13 @@ import { init, useWallets, useConnectWallet } from '@web3-onboard/react'
 import injectedModule from '@web3-onboard/injected-wallets'
 import { ethers } from 'ethers'
 import { useEffect, useState } from 'react'
-import walletConnect from '@web3-onboard/walletconnect'
+import walletConnectModule from '@web3-onboard/walletconnect'
 
 const injected = injectedModule()
-const walletConnect1 = walletConnect()
 
 // initialize Onboard
 init({
-  wallets: [injected, walletConnect1],
+  wallets: [injected],
   chains: [
     {
       id: '0x1',
