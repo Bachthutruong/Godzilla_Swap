@@ -16,6 +16,7 @@
     "@web3-onboard/walletconnect": "^2.5.1",
     "eslint-plugin-better-styled-components": "^1.1.2",
     "ethers": "^5.7.0",
+    "react": "^18.2.0",
     "react-indiana-drag-scroll": "^2.2.0",
     "react-popper": "^2.3.0",
     "styled-components": "^5.3.5",
